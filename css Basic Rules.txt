@@ -1,0 +1,93 @@
+# CSS Basic Commenting Rules*
+1. Base Rule
+2. Theme
+3. Layout
+4. Module/ reuseable
+5. states.
+1rem=10px
+96px=1inch
+1px=6.25%
+16px=100%
+
+=> css variablel is very important website designing process because 
+it's help to design fastest at any color 
+at a time it's very quick and easy. 
+syntax
+declaration syntax:(universal selectors)
+  :root{--main-color:red;
+} 
+To call apply
+background-color: var(--main-color);
+
+#CSS Nesting to use this property;
+&::after{
+content:""; , width:"", aspect:"", bacground-color:"";
+
+#CSS first and default any side property;
+universal selector
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+and similiary we can also cutomize fonts to use 
+element selector
+html{
+font-size:12px;
+font-family:times new roman;
+}
+
+__To fixed background images use this property;
+ {
+background-attachement:fixed;
+
+__To center any object use three different property;
+{
+position:relative;
+top, right, botom, left: ----apply;
+{
+display:grid;
+place-item:center;
+{
+display:flex;
+justify-content: center;
+align-item: start/end/center;
+
+__To apply text vertically or horizontally set use this property;
+{writting-mode:vertically lr;
+
+_To make website navigation bar use this property;
+{
+display:inline; (main tag bhitra)
+list-style:none; (li tag bhitra)
+text-decoration: none; (anchor tag bhitra)
+
+__To make website responsive use this css property;
+syntax:{ @media screen and (max-width:530px(let) (to big devices max width suppose)
+{ width:430px; (to small device after use)
+height:auto;
+
+__To Animation apply any object to use this property;
+syntax: { @keyframe animation name(let myanim):
+from{
+width:50%}
+To{
+width: 100%}
+then shorten property:
+animation: myanim;
+animation-duration:2s;
+animation-delay: 3s;
+animation-direction:alternate;
+animation-iteration-count:3;
+
+_similarly transion property ma ni same hunxh but iteration count hudaina;
+
+Note: inline element (spam tag) ma padding set garna mildaina.
+
+_Any image or text to bring front and back to use 
+z-index: -1;
+
+==> Aspect ratio use to set the width and hieght in exact basis of width suppose, 
+let width: 40vw;
+aspect-ratio:1; to set exact  height basis of width
+
